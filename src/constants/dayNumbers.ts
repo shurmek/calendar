@@ -1,0 +1,15 @@
+export enum DayNumbers {
+  JANUARY = 28,
+  FEBRUARY = 28,
+  POLUNARY = 28,
+  MARCH = 28,
+  APRIL = 28,
+  MAY = 28,
+  JUNE = 28,
+  JULY = 28,
+  AUGUST = 28,
+  SEPTEMBER = 28,
+  OCTOBER = 28,
+  NOVEMBER = 28,
+  DECEMBER = 29,
+}
