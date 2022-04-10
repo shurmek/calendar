@@ -1,19 +1,10 @@
 {
   "compilerOptions": {
-    "baseUrl": "./src",
     "target": "es5",
-    "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
+    "module": "commonjs",
+    "baseUrl": "./",
+    "rootDir": "./src",
+    "outDir": "./lib"
   },
-  "include": ["src"]
+  "include": ["./src"]
 }
