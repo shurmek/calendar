@@ -1,4 +1,4 @@
-import { DateTimeUnits } from './constants';
+import { DateTimeUnits } from '../constants';
 
 type Unit = keyof Omit<typeof DateTimeUnits, 'MILLISECOND'>;
 
