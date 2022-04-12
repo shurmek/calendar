@@ -2,7 +2,7 @@ import { LEAP_YEAR_MONTH_INDEX, MonthIndexes } from './constants';
 import { MonthDaysMap } from './constants/monthDays';
 import { Converter } from './Converter';
 
-export class Core {
+export default class Core {
   private static converter = Converter;
 
   public static now(): number {
