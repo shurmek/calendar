@@ -1,17 +1,108 @@
 {
-  "monthsNames": {
-    "JANUARY": ["Январь", "Января"],
-    "FEBRUARY": ["Февраль", "Февраля"],
-    "POLUNARY": ["Полунь", "Полуня"],
-    "MARCH": ["Март", "Марта"],
-    "APRIL": ["Апрель", "Апреля"],
-    "MAY": ["Май", "Мая"],
-    "JUNE": ["Июнь", "Июня"],
-    "JULY": ["Июль", "Июля"],
-    "AUGUST": ["Август", "Августа"],
-    "SEPTEMBER": ["Сентябрь", "Сентября"],
-    "OCTOBER": ["Октябрь", "Октября"],
-    "NOVEMBER": ["Ноябрь", "Ноября"],
-    "DECEMBER": ["Декабрь", "Декабря"]
-  }
+  "months": [
+    {
+      "name": "Январь",
+      "nameCaseForm": "Января",
+      "shortName": "Янв"
+    },
+    {
+      "name": "Февраль",
+      "nameCaseForm": "Февраля",
+      "shortName": "Фев"
+    },
+    {
+      "name": "Полунь",
+      "nameCaseForm": "Полуня",
+      "shortName": "Пол"
+    },
+    {
+      "name": "Март",
+      "nameCaseForm": "Марта",
+      "shortName": "Мар"
+    },
+    {
+      "name": "Апрель",
+      "nameCaseForm": "Апреля",
+      "shortName": "Апр"
+    },
+    {
+      "name": "Май",
+      "nameCaseForm": "Мая",
+      "shortName": "Май"
+    },
+    {
+      "name": "Июнь",
+      "nameCaseForm": "Июня",
+      "shortName": "Июн"
+    },
+    {
+      "name": "Июль",
+      "nameCaseForm": "Июля",
+      "shortName": "Июл"
+    },
+    {
+      "name": "Август",
+      "nameCaseForm": "Августа",
+      "shortName": "Авг"
+    },
+    {
+      "name": "Сентябрь",
+      "nameCaseForm": "Сентября",
+      "shortName": "Сен"
+    },
+    {
+      "name": "Октябрь",
+      "nameCaseForm": "Октября",
+      "shortName": "Окт"
+    },
+    {
+      "name": "Ноябрь",
+      "nameCaseForm": "Ноября",
+      "shortName": "Ноя"
+    },
+    {
+      "name": "Декабрь",
+      "nameCaseForm": "Декабря",
+      "shortName": "Дек"
+    }
+  ],
+  "daysOfWeek": [
+    {
+      "abb": "Пн",
+      "sortName": "Пон",
+      "longName": "Понедельник"
+    },
+    {
+      "abb": "Вт",
+      "sortName": "Вто",
+      "longName": "Вторник"
+    },
+    {
+      "abb": "Ср",
+      "sortName": "Сре",
+      "longName": "Среда"
+    },
+    {
+      "abb": "Чт",
+      "sortName": "Чет",
+      "longName": "Четверг"
+    },
+    {
+      "abb": "Пт",
+      "sortName": "Пят",
+      "longName": "Пятница"
+    },
+    {
+      "abb": "Сб",
+      "sortName": "Суб",
+      "longName": "Суббота"
+    },
+    {
+      "abb": "Вс",
+      "sortName": "Вос",
+      "longName": "Воскресенье"
+    }
+  ],
+  "am": "утра",
+  "pm": "вечера"
 }
