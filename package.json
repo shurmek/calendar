@@ -1,0 +1,21 @@
+{
+  "name": "calendar",
+  "version": "1.0.0",
+  "description": "## FORMATS",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shurmek/calendar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shurmek/calendar/issues"
+  },
+  "homepage": "https://github.com/shurmek/calendar#readme",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
