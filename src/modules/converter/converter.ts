@@ -2,16 +2,16 @@ import { ConverterInterface } from 'interfaces';
 import { DateTimeUnits } from 'constants';
 
 export class Converter implements ConverterInterface {
-  private static converterInstance: Converter;
+  private static __instance: Converter;
 
   private constructor() {}
 
   public static get instance(): Converter {
-    if (!Converter.converterInstance) {
-      Converter.converterInstance = new Converter();
+    if (!Converter.__instance) {
+      Converter.__instance = new Converter();
     }
 
-    return Converter.converterInstance;
+    return Converter.__instance;
   }
 
   public valueToMilliseconds(value: number, unit: DateTimeUnits): number {
